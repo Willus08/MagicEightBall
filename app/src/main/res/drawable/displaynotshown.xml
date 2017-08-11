@@ -23,7 +23,7 @@
                 android:color="@android:color/transparent"
                 android:width="150dp"/>
             <solid
-                android:color="#000020"/>
+                android:color="#000055"/>
 
             <size
                 android:width="100dp"
