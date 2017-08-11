@@ -23,7 +23,7 @@
                 android:color="@android:color/transparent"
                 android:width="150dp"/>
             <solid
-                android:color="#000020"/>
+                android:color="#000055"/>
 
             <size
                 android:width="100dp"
@@ -45,8 +45,8 @@
                 android:pivotY="0"
                 android:rotation="0" >
                 <path
-                    android:fillColor="#000077"
-                    android:strokeColor="#000020"
+                    android:fillColor="#0000bb"
+                    android:strokeColor="#000055"
                     android:strokeWidth="3"
                     android:pathData="M100,100 L300,100 L200,300 z"/>
 
