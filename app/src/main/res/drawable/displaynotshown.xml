@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- the ball-->
+    <item>
+        <shape
+
+            android:shape="oval">
+
+            <solid
+                android:color="#000000"/>
+
+            <size
+                android:width="250dp"
+                android:height="250dp"/>
+
+
+        </shape>
+    </item>
+    <!-- the field of liquid-->
+    <item>
+        <shape android:shape="oval">
+            <stroke
+                android:color="@android:color/transparent"
+                android:width="150dp"/>
+            <solid
+                android:color="#000020"/>
+
+            <size
+                android:width="100dp"
+                android:height="100dp"/>
+        </shape>
+    </item>
+    <!-- the message holder-->
+
+</layer-list>
