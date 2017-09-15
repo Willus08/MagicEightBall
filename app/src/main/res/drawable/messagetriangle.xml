@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:height="50dp"
-    android:width="30dp"
-    android:viewportHeight="800"
-    android:viewportWidth="600" >
-    <group
-        android:name="rotationGroup"
-        android:translateY="240"
-        android:translateX="100"
-        android:pivotX="0"
-        android:pivotY="0"
-        android:rotation="0" >
-        <path
-            android:fillColor="#0000bb"
-            android:strokeColor="#000055"
-            android:strokeWidth="3"
-            android:pathData="M100,100 L300,100 L200,300 z"/>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <vector
+            android:height="50dp"
+            android:width="30dp"
+            android:viewportHeight="800"
+            android:viewportWidth="600" >
+            <group
+                android:name="rotationGroup"
+                android:translateY="240"
+                android:translateX="100"
+                android:pivotX="0"
+                android:pivotY="0"
+                android:rotation="0" >
+                <path
+                    android:fillColor="#0000bb"
+                    android:strokeColor="#000055"
+                    android:strokeWidth="3"
+                    android:pathData="M100,100 L300,100 L200,300 z"/>
 
-    </group>
+            </group>
 
-</vector>
+        </vector>
+    </item>
+    <!-- message writen over-->
+    <item>
+
+    </item>
+</layer-list>
